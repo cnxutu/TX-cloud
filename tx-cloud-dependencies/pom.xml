@@ -16,6 +16,7 @@
         <module>tx-mybatis-plus</module>
         <module>tx-redisson</module>
         <module>tx-cloud-alibaba</module>
+        <module>tx-elk</module>
     </modules>
 
     <properties>

@@ -14,7 +14,7 @@
     <modules>
         <module>tx-nacos</module>
         <module>tx-sentinel</module>
-        <module>tx-sentinel</module>
+        <module>tx-seata</module>
         <module>tx-dubbo</module>
         <module>tx-rocketmq</module>
     </modules>
