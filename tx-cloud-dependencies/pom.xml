@@ -10,11 +10,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tx-cloud-demo</artifactId>
+    <artifactId>tx-cloud-dependencies</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>tx-mybatis-plus</module>
         <module>tx-redisson</module>
+        <module>tx-cloud-alibaba</module>
     </modules>
 
     <properties>

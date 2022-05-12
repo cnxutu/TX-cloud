@@ -16,7 +16,8 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
-        <module>../tx-cloud-demo</module>
+        <module>../tx-cloud-dependencies</module>
+        <module>../spring-boot-demo</module>
     </modules>
 
 
@@ -27,13 +28,14 @@
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <spring.framework.version>5.3.19</spring.framework.version>
+
         <spring-boot.version>2.6.7</spring-boot.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
-        <mysql-connector.version>8.0.16</mysql-connector.version>
-        <!--        <mybatis-plus.version>3.5.1</mybatis-plus.version>-->
-        <mybatis-plus.version>3.4.2</mybatis-plus.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
+<!--        <mysql-connector.version>8.0.16</mysql-connector.version>-->
+        <mybatis-plus.version>3.5.1</mybatis-plus.version>
+<!--        <mybatis-plus.version>3.4.2</mybatis-plus.version>-->
         <mybatis.version>3.5.6</mybatis.version>
         <mybatis-spring.version>1.3.2</mybatis-spring.version>
         <validation.version>2.0.1.Final</validation.version>
@@ -98,6 +100,12 @@
             </dependency>
 
             <!--druid-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
