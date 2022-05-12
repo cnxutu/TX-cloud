@@ -6,16 +6,20 @@
         <artifactId>tx-cloud-parent</artifactId>
         <groupId>org.example</groupId>
         <version>1.0.0</version>
+        <relativePath>../tx-cloud-parent/pom.xml</relativePath>
     </parent>
-    <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tx-cloud-configuration</artifactId>
-
-
+    <artifactId>tx-cloud-demo</artifactId>
+    <packaging>pom</packaging>
     <modules>
         <module>tx-mybatis-plus</module>
         <module>tx-redisson</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
