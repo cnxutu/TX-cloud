@@ -1,4 +1,4 @@
-//package com.example.txmybatis.incrementer;
+//package com.example.incrementer;
 //
 //import com.baomidou.mybatisplus.core.incrementer.IdentifierGenerator;
 //import lombok.extern.slf4j.Slf4j;

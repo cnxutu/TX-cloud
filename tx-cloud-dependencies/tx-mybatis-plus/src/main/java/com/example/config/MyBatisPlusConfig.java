@@ -1,7 +1,7 @@
-//package com.example.txmybatis.config;
+//package com.example.config;
 //
 //import com.baomidou.mybatisplus.autoconfigure.MybatisPlusPropertiesCustomizer;
-//import com.example.txmybatis.incrementer.CustomIdGenerator;
+//import com.example.incrementer.CustomIdGenerator;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
 //

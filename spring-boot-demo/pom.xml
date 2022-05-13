@@ -8,13 +8,13 @@
         <version>1.0.0</version>
         <relativePath>../tx-cloud-parent</relativePath> <!-- lookup parent from repository -->
     </parent>
+    <packaging>jar</packaging>
 
     <groupId>com.example</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-demo</name>
     <description>spring-boot-demo</description>
-    <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -35,6 +35,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>

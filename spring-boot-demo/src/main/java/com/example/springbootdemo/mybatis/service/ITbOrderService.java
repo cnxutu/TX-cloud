@@ -14,4 +14,16 @@ import com.example.springbootdemo.mybatis.entity.TbOrder;
  */
 public interface ITbOrderService extends IService<TbOrder> {
 
+
+
+
+    /**
+     *
+     *
+     *
+     *
+     *
+     */
+
+
 }
