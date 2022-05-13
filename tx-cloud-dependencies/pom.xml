@@ -17,6 +17,7 @@
         <module>tx-redisson</module>
         <module>tx-cloud-alibaba</module>
         <module>tx-elk</module>
+        <module>tx-common</module>
     </modules>
 
     <properties>

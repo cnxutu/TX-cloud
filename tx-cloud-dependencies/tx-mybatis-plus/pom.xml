@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tx-mybatis-plus</artifactId>
+<!--    <packaging>jar</packaging>-->
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -31,6 +32,11 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
     </dependencies>

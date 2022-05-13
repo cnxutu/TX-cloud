@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-//@ServletComponentScan("com.example")
+@ServletComponentScan("com.example")
 @MapperScan("com.example.springbootdemo.mybatis.mapper")
 public class SpringBootDemoApplication {
 
