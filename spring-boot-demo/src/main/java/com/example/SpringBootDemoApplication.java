@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @SpringBootApplication
 @ServletComponentScan("com.example")
 //@MapperScan({"com.example.*.example"})
-@MapperScan("com.example.springbootdemo.mybatis.example")
+@MapperScan("com.example.springbootdemo.mybatis.mapper")
 public class SpringBootDemoApplication {
 
     public static void main(String[] args) {

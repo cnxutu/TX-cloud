@@ -9,6 +9,8 @@
 #    password: test
 
 spring:
+  application:
+    name: tx-cloud-alibaba-demo
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
@@ -18,7 +20,27 @@ spring:
   main:
     allow-bean-definition-overriding: true
 server:
-  port: 8080
+  port: 8081
+
+# actuator  相关
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: always
+  health:
+    diskspace:
+      enabled: false
+# cloud 相关
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true
+      web-context-unify: true
+
 
 # Logger Config
 logging:
