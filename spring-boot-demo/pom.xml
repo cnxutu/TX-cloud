@@ -23,7 +23,7 @@
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>tx-sentinel</artifactId>
+            <artifactId>tx-cloud-dependencies</artifactId>
             <version>1.0.0</version>
         </dependency>
 
