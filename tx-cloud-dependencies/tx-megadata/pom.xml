@@ -3,27 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tx-cloud-parent</artifactId>
+        <artifactId>tx-cloud-dependencies</artifactId>
         <groupId>org.example</groupId>
         <version>1.0.0</version>
-        <relativePath>../tx-cloud-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tx-cloud-dependencies</artifactId>
+    <artifactId>tx-megadata</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>tx-mybatis-plus</module>
-        <module>tx-redisson</module>
-        <module>tx-cloud-alibaba</module>
-        <module>tx-elk</module>
-        <module>tx-common</module>
-        <module>tx-megadata</module>
+        <module>tx-clickhouse</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+
+
 
 </project>

@@ -59,6 +59,7 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
         <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
+        <clickhouse.version>0.3.2-patch9</clickhouse.version>
     </properties>
 
 
@@ -216,6 +217,13 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
+            </dependency>
+
+            <!--     clickhouse       -->
+            <dependency>
+                <groupId>com.clickhouse</groupId>
+                <artifactId>clickhouse-jdbc</artifactId>
+                <version>${clickhouse.version}</version>
             </dependency>
 
 

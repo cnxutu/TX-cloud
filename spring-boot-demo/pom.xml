@@ -23,7 +23,13 @@
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>tx-cloud-dependencies</artifactId>
+            <artifactId>tx-clickhouse</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>tx-sentinel</artifactId>
             <version>1.0.0</version>
         </dependency>
 

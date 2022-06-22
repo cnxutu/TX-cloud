@@ -17,6 +17,11 @@ spring:
         dashboard: localhost:8080
       eager: true
       web-context-unify: true
+  clickhouse:
+    url: jdbc:ch://localhost:8023/helloworld
+    user:
+    password:
+    socketTimeout: 600000
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
@@ -33,12 +38,17 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include:
+          - "*"
+#        include: prometheus
+#        include: "*"
     health:
       show-details: always
   health:
     diskspace:
       enabled: false
+
+ # clickhouse 相关
 
 
 
