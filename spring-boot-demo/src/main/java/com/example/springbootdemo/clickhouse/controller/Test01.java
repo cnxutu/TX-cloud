@@ -61,7 +61,7 @@ public class Test01 {
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery("select * from " + table)) {
-            while (rs.next()){
+            while (rs.next()) {
                 ResultSetMetaData metaData = rs.getMetaData();
                 String columnName1 = metaData.getColumnName(1);
                 String columnName2 = metaData.getColumnName(2);
@@ -74,14 +74,12 @@ public class Test01 {
                 String columnValue4 = rs.getString(columnName4);
 
                 System.out.println("进行数据展示：\n");
-                System.out.println(columnName1+"\t"+columnName2+"\t"+columnName3+"\t"+columnName4);
-                System.out.println(columnValue1+"\t"+columnValue2+"\t"+columnValue3+"\t"+columnValue4);
+                System.out.println(columnName1 + "\t" + columnName2 + "\t" + columnName3 + "\t" + columnName4);
+                System.out.println(columnValue1 + "\t" + columnValue2 + "\t" + columnValue3 + "\t" + columnValue4);
             }
 
 
-
             ResultSetMetaData metaData = rs.getMetaData();
-
             System.out.println(metaData);
 
             int count = 0;
