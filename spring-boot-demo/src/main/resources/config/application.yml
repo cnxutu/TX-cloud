@@ -55,5 +55,5 @@ management:
 # Logger Config
 logging:
   level:
-    com.baomidou.mybatisplus.samples.quickstart: debug
+    com.example.springbootdemo.mybatis: debug
 
